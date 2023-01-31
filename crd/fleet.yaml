@@ -1,0 +1,230 @@
+apiVersion: catalog.cattle.io/v1
+kind: App
+metadata:
+  annotations:
+    objectset.rio.cattle.io/applied: H4sIAAAAAAAA/8RXW4/bNhP9Kwa/h++holaSLV8EBL3sAm1QIF1sghRok4cRNbIYUyTBizbOwv+9oKS1Nxtv4qBx+mbxMmd45gx5fEdadFCBA1LcEZBSOXBcSRs+VfkOmbPoYsNVzMA5gTFXF7wiBWlQtBS0JtGT69StREPX3YYU5KJLo8nvXFbPXiIz6L64TUKLpCC2iQNSbFAgWIy7NJboO2ROGcpMFXfpSaGsBhbiDXP0EMNurcOW7CLCDPZnf8VbtA5aTQrphYiIgBLFZxlpwDakILPlPC9X1RKyJF0lFeT5Ypbnq1maTBcVS/OsWsAigSSgjef76DBkGP5SrhHpz3WDNRqUDC0p/r4joPlrNJYrSQrSs1IKxTZ/hKVXKND1MzUIixFhSjqjhEBDCmc8RmTDZSjrvjpfxb/vJbEqq3qVzha0WiQ1ndXlki6zeU3r1YxV82y+rNmS7N7uImI1ssAna8C48OMzKmTgQKj1A7YZGsdrjgHTgGQNGhIdWdfwqsLARjjh0RWnsf3pvpEN+kQRP93gObXKG4bUoFaHvGnPgD1hD3Vb3acpvHVogoQ+rThofRjJ4ySekYhUaJnheqg/+Q1FO+lRJ7UykxfoX/ep/99OLm+uJhZNx4OkItKo/nCNc9oWFxf7Q8ZMBVY46+PdT0MHDozN4jV3jS+9RRNEhtKF9Rf+Il1N54tskf9on2VJ8sYnSTbvnoUEW+DSAZdoBiVjC1wE7XmtlXE/PUYeWS+RcWddgwbJ7u2THTXyBloLznpZkYh0e5bSJI2TOP3B6yzO4lngtQPhcdCeqW6xbJTahC+UUIqguqFjxsCXQ0GeX4etSqO0Da/dvtNGQn9mTHnpHuZHdruov0b3JZtGhMtaBayPi/ZcWgdCTJhqtUAXxFxzY90VaqG2fSNkSTalSUqn6atkVSRpkSV/kXB3nbLKIFQ9ef87CGLSK+UyKOWNfCOf0s0kVLkv3sQi86ETrQPnLSlIdQ/8b+87g0MnHLnpQHN871CGTxtvlja0Tt8M44126a1T7c0Y4QprLvmogvucuj5z7rbGC7Txx3rbRedAHNv4+wNXQn9/UKhabkOE8d35/hncQv1VoKYEFoN3jTL8Q39rHEUeqnijBJIjEi+5rLhcU9YneC/i6pDgeWEf6frsaI+ldXbAz8rq7OiPJfUNAH8Zgv9HWjoB/dtL6iTQMyjrJNxzC+ykJL6ss4fRXw5+41hI27Hw6tJ7S3Pa6xus1cERrYUqQYy+3Ansf40OKMAzmuXvsjIY2mH0xZBFu6XjQMjVbPAaXHNtsObvSUGGoT+5rNStfTwz5HGFNXjhbnDNrTPbh1PXRoW/ZT2+potcvwsuxBvxwJ4iy+g0p2k+o6s5nU5j0MFdu4am4QHQ3mEMLXxQEm7t+CQ8jRyc295CpruD5Ql/EYPjw+pXlGgGu1kkEbG+bSFsvtvtdv8EAAD//yr6lqZ2DwAA
+    objectset.rio.cattle.io/id: helm-app
+    objectset.rio.cattle.io/owner-gvk: /v1, Kind=Secret
+    objectset.rio.cattle.io/owner-name: sh.helm.release.v1.neuvector-crd.v1
+    objectset.rio.cattle.io/owner-namespace: cattle-neuvector-system
+  creationTimestamp: "2023-01-31T09:01:20Z"
+  generation: 2
+  labels:
+    objectset.rio.cattle.io/hash: 4865b9d8a20190da557455941037dc152d7a70a0
+  managedFields:
+  - apiVersion: catalog.cattle.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:metadata:
+        f:annotations:
+          .: {}
+          f:objectset.rio.cattle.io/applied: {}
+          f:objectset.rio.cattle.io/id: {}
+          f:objectset.rio.cattle.io/owner-gvk: {}
+          f:objectset.rio.cattle.io/owner-name: {}
+          f:objectset.rio.cattle.io/owner-namespace: {}
+        f:labels:
+          .: {}
+          f:objectset.rio.cattle.io/hash: {}
+        f:ownerReferences:
+          .: {}
+          k:{"uid":"9bdf9147-d70f-4fb8-826f-f94cd6268fc8"}: {}
+      f:spec:
+        .: {}
+        f:chart:
+          .: {}
+          f:metadata:
+            .: {}
+            f:annotations:
+              .: {}
+              f:catalog.cattle.io/certified: {}
+              f:catalog.cattle.io/hidden: {}
+              f:catalog.cattle.io/namespace: {}
+              f:catalog.cattle.io/release-name: {}
+              f:catalog.cattle.io/ui-source-repo: {}
+              f:catalog.cattle.io/ui-source-repo-type: {}
+            f:apiVersion: {}
+            f:appVersion: {}
+            f:description: {}
+            f:home: {}
+            f:icon: {}
+            f:maintainers: {}
+            f:name: {}
+            f:type: {}
+            f:version: {}
+          f:values:
+            .: {}
+            f:crdwebhook:
+              .: {}
+              f:enabled: {}
+              f:type: {}
+            f:openshift: {}
+            f:serviceAccount: {}
+        f:helmVersion: {}
+        f:info:
+          .: {}
+          f:description: {}
+          f:firstDeployed: {}
+          f:lastDeployed: {}
+          f:readme: {}
+          f:status: {}
+        f:name: {}
+        f:namespace: {}
+        f:resources: {}
+        f:values:
+          .: {}
+          f:global:
+            .: {}
+            f:cattle:
+              .: {}
+              f:clusterId: {}
+              f:clusterName: {}
+              f:rkePathPrefix: {}
+              f:rkeWindowsPathPrefix: {}
+              f:systemDefaultRegistry: {}
+              f:systemProjectId: {}
+              f:url: {}
+            f:systemDefaultRegistry: {}
+        f:version: {}
+    manager: agent
+    operation: Update
+    time: "2023-01-31T09:01:20Z"
+  - apiVersion: catalog.cattle.io/v1
+    fieldsType: FieldsV1
+    fieldsV1:
+      f:status:
+        .: {}
+        f:observedGeneration: {}
+        f:summary:
+          .: {}
+          f:state: {}
+    manager: agent
+    operation: Update
+    subresource: status
+    time: "2023-01-31T09:01:22Z"
+  name: neuvector-crd
+  namespace: cattle-neuvector-system
+  ownerReferences:
+  - apiVersion: v1
+    blockOwnerDeletion: false
+    controller: true
+    kind: Secret
+    name: sh.helm.release.v1.neuvector-crd.v1
+    uid: 9bdf9147-d70f-4fb8-826f-f94cd6268fc8
+  resourceVersion: "36905"
+  uid: a7eb4cc0-2da5-4598-912a-fe3ae293bac1
+spec:
+  chart:
+    metadata:
+      annotations:
+        catalog.cattle.io/certified: rancher
+        catalog.cattle.io/hidden: "true"
+        catalog.cattle.io/namespace: cattle-neuvector-system
+        catalog.cattle.io/release-name: neuvector-crd
+        catalog.cattle.io/ui-source-repo: rancher-charts
+        catalog.cattle.io/ui-source-repo-type: cluster
+      apiVersion: v1
+      appVersion: 5.0.4
+      description: Helm chart for NeuVector's CRD services
+      home: https://neuvector.com
+      icon: https://avatars2.githubusercontent.com/u/19367275?s=200&v=4
+      maintainers:
+      - email: support@neuvector.com
+        name: becitsthere
+      name: neuvector-crd
+      type: application
+      version: 101.0.1+up2.2.4
+    values:
+      crdwebhook:
+        enabled: true
+        type: ClusterIP
+      openshift: false
+      serviceAccount: neuvector
+  helmVersion: 3
+  info:
+    description: Install complete
+    firstDeployed: "2023-01-31T09:01:20Z"
+    lastDeployed: "2023-01-31T09:01:20Z"
+    readme: "# NeuVector Helm Chart\n\nHelm chart for NeuVector container security's
+      CRD services. NeuVector's CRD (Custom Resource Definition) capture and declare
+      application security policies early in the pipeline, then defined policies can
+      be deployed together with the contaier applications.\n\nBecause the CRD poclies
+      can be deployed before NeuVector's core product, this separate helm chart is
+      created. For the backward compatibility reason, crd.yaml is not removed in the
+      'core' chart. If you use this 'crd' chart, please set 'crdwebhook.enabled' to
+      false in the 'core' chart.\n \n## Configuration\n\nThe following table lists
+      the configurable parameters of the NeuVector chart and their default values.\n\nParameter
+      | Description | Default | Notes\n--------- | ----------- | ------- | -----\n`openshift`
+      | If deploying in OpenShift, set this to true | `false` |\n`serviceAccount`
+      | Service account name for NeuVector components | `default` |\n`crdwebhook.type`
+      | crd webhook type | `ClusterIP` |\n\n---\nContact <support@neuvector.com> for
+      access to Docker Hub and docs.\n\n"
+    status: deployed
+  name: neuvector-crd
+  namespace: cattle-neuvector-system
+  resources:
+  - apiVersion: apiextensions.k8s.io/v1
+    kind: CustomResourceDefinition
+    name: nvsecurityrules.neuvector.com
+  - apiVersion: apiextensions.k8s.io/v1
+    kind: CustomResourceDefinition
+    name: nvclustersecurityrules.neuvector.com
+  - apiVersion: apiextensions.k8s.io/v1
+    kind: CustomResourceDefinition
+    name: nvdlpsecurityrules.neuvector.com
+  - apiVersion: apiextensions.k8s.io/v1
+    kind: CustomResourceDefinition
+    name: nvadmissioncontrolsecurityrules.neuvector.com
+  - apiVersion: apiextensions.k8s.io/v1
+    kind: CustomResourceDefinition
+    name: nvwafsecurityrules.neuvector.com
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRole
+    name: neuvector-binding-customresourcedefinition
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRole
+    name: neuvector-binding-nvsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRole
+    name: neuvector-binding-nvdlpsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRole
+    name: neuvector-binding-nvadmissioncontrolsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRole
+    name: neuvector-binding-nvwafsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    name: neuvector-binding-customresourcedefinition
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    name: neuvector-binding-nvsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    name: neuvector-binding-nvdlpsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    name: neuvector-binding-nvadmissioncontrolsecurityrules
+  - apiVersion: rbac.authorization.k8s.io/v1
+    kind: ClusterRoleBinding
+    name: neuvector-binding-nvwafsecurityrules
+  - apiVersion: v1
+    kind: Service
+    name: neuvector-svc-crd-webhook
+    namespace: cattle-neuvector-system
+  values:
+    global:
+      cattle:
+        clusterId: c-25j2b
+        clusterName: my-cluster1
+        rkePathPrefix: ""
+        rkeWindowsPathPrefix: ""
+        systemDefaultRegistry: ""
+        systemProjectId: p-75pjr
+        url: https://ec2-35-154-96-33.ap-south-1.compute.amazonaws.com
+      systemDefaultRegistry: ""
+  version: 1
+status:
+  observedGeneration: 2
+  summary:
+    state: deployed
