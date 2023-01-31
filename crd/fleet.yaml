@@ -7,7 +7,6 @@ metadata:
     objectset.rio.cattle.io/owner-gvk: /v1, Kind=Secret
     objectset.rio.cattle.io/owner-name: sh.helm.release.v1.neuvector-crd.v1
     objectset.rio.cattle.io/owner-namespace: cattle-neuvector-system
-  creationTimestamp: "2023-01-31T09:01:20Z"
   generation: 2
   labels:
     objectset.rio.cattle.io/hash: 4865b9d8a20190da557455941037dc152d7a70a0
@@ -143,8 +142,8 @@ spec:
   helmVersion: 3
   info:
     description: Install complete
-    firstDeployed: "2023-01-31T09:01:20Z"
-    lastDeployed: "2023-01-31T09:01:20Z"
+    
+    
     readme: "# NeuVector Helm Chart\n\nHelm chart for NeuVector container security's
       CRD services. NeuVector's CRD (Custom Resource Definition) capture and declare
       application security policies early in the pipeline, then defined policies can
